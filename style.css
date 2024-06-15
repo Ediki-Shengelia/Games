@@ -1,0 +1,304 @@
+.section-first {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.photo-bg {
+  position: relative;
+  background-image: url("images/eivor.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 750px;
+  background-repeat: no-repeat;
+}
+.buy {
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 23px;
+  width: 70px;
+  height: 40px;
+  margin-top: 25px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.first-title {
+  display: flex;
+  align-items: center;
+}
+.first-title div h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  width: 300px;
+}
+.first-title div h3 {
+  text-align: right;
+  width: 300px;
+  font-size: 20px;
+  color: white;
+}
+
+.imageOn {
+  background-image: url("images/top/greek.png");
+  width: 400px;
+  height: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+}
+
+/* !  second section*/
+
+:root {
+  --main-color: #b60040;
+  --accent-color: #00b1f6;
+  --accent-darker: #005475;
+  --background-color: #001a25;
+}
+
+.second-section {
+  background-color: var(--background-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.title-box {
+  font-size: 70px;
+  font-family: "Roboto";
+  max-width: 700px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 10px whitesmoke;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.box1 {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+.box2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+.dovnloadBox {
+  display: flex;
+  background-color: var(--accent-darker);
+  width: 180px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px red;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.dovnloadBox div {
+  font-size: 18px;
+  color: white;
+}
+.dovnloadBox div div {
+  font-size: 25px;
+}
+.fa-apple {
+  color: white;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.PC {
+  font-size: 30px;
+}
+.fa-laptop-code {
+  color: white;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+  gap: 40px;
+}
+
+/* ! */
+.fa-people-group {
+  color: white;
+  font-size: 70px;
+}
+.first-box {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto";
+  background-color: var(--main-color);
+  width: 300px;
+  height: 250px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.first-box:hover {
+  transform: translateY(-20px);
+}
+
+.container {
+  display: flex;
+  gap: 35px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.fa-gift {
+  font-size: 70px;
+}
+.fa-signal {
+  font-size: 70px;
+}
+.fa-computer-mouse {
+  font-size: 70px;
+}
+/* !third-section */
+
+.user {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-user {
+  font-size: 30px;
+  color: white;
+}
+.user h5 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.third-section {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+.first-div img {
+  width: 600px;
+}
+.second-div h2 {
+  margin-top: 30px;
+  font-size: 100px;
+  color: orange;
+  text-shadow: 3px 3px 10px yellow;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.two-divs {
+  display: flex;
+}
+.second-div h3 {
+  font-size: 55px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+}
+.second-div h4 {
+  font-size: 17px;
+  color: white;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.second-div h5 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 30px;
+}
+.second-div h6{
+  margin-top: 25px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  color: white;
+}
+.fourth-section{
+background-color: var(--background-color);
+padding: 30px;
+}
+
+/* fourth section */
+.second-div-box img{
+  width: 600px;
+}
+.two-div-boxes{
+  display: flex;
+}
+.first-div-box h2{
+  color: #00b1f6;
+  font-size: 100px;
+  text-shadow: 3px 3px 10px royalblue;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box h3{
+  font-size: 50px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box h4{
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box h5{
+  font-size: 35px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box h6{
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}

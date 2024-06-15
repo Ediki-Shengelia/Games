@@ -1,0 +1,156 @@
+@media (max-width: 1024px) {
+  .imageOn {
+    display: none;
+  }
+
+  .first-title div h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+  }
+  .first-title div h3 {
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+  }
+  .title-box {
+    max-width: 600px;
+    text-align: center;
+  }
+  .box1 {
+    max-width: 700px;
+  }
+  .box2 {
+    max-width: 700px;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .two-divs {
+    flex-direction: column;
+  }
+  .first-div img {
+    width: 300px;
+  }
+  .second-div-box img {
+    width: 300px;
+  }
+  .div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .second-div {
+    text-align: center;
+  }
+  .two-div-boxes {
+    flex-direction: column-reverse;
+  }
+  .first-div-box h2,
+  .first-div-box h3,
+  .first-div-box h4,
+  .first-div-box h5,
+  .first-div-box h6 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .photo-bg {
+    height: 768px;
+  }
+  .first-title div h2 {
+    width: 400px;
+  }
+  .first-title div h3 {
+    width: 400px;
+  }
+  .title-box {
+    font-size: 50px;
+    text-align: center;
+  }
+  .box1 {
+    max-width: 550px;
+  }
+  .box2 {
+    max-width: 550px;
+  }
+
+  .first-div-box h2 {
+    font-size: 35px;
+  }
+  .first-div-box h3 {
+    font-size: 30px;
+  }
+  .first-div-box h4 {
+    font-size: 17px;
+  }
+  .first-div-box h5 {
+    font-size: 25px;
+  }
+  .first-div-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .second-div h2 {
+    font-size: 35px;
+  }
+  .second-div h3 {
+    font-size: 30px;
+  }
+  .second-div h4 {
+    font-size: 17px;
+  }
+  .second-div h5 {
+    font-size: 25px;
+  }
+  .second-div h6 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .photo-bg {
+    height: 480px;
+  }
+  .first-title div h2 {
+    width: 300px;
+  }
+  .first-title div h3 {
+    width: 300px;
+  }
+  .title-box {
+    font-size: 25px;
+    text-align: center;
+  }
+  .box1 {
+    max-width: 350px;
+  }
+  .box2 {
+    max-width: 350px;
+  }
+  .flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .third-section {
+    padding: 15px;
+  }
+  .user h5 {
+    font-size: 15px;
+    width: 250px;
+  }
+  .user {
+    margin-left: 20px;
+  }
+  .first-div img {
+    width: 250px;
+  }
+  .second-div-box img {
+    width: 250px;
+  }
+}
