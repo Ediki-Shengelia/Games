@@ -5,7 +5,7 @@
 
 .photo-bg {
   position: relative;
-  background-image: url("images/eivor.jpg");
+  background-image: url("../images/eivor.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -37,22 +37,17 @@
   display: flex;
   align-items: center;
 }
-.first-title div h2 {
+.first-title div h2,
+.first-title div h3 {
   font-size: 40px;
   color: white;
   font-weight: bold;
   text-align: right;
   width: 300px;
 }
-.first-title div h3 {
-  text-align: right;
-  width: 300px;
-  font-size: 20px;
-  color: white;
-}
 
 .imageOn {
-  background-image: url("images/top/greek.png");
+  background-image: url("../images/top/greek.png");
   width: 400px;
   height: 550px;
   background-size: contain;
@@ -176,6 +171,7 @@
   gap: 35px;
   justify-content: space-evenly;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .fa-gift {
@@ -194,6 +190,14 @@
   width: 300px;
   justify-content: space-around;
   align-items: center;
+}
+.second-div-box {
+  display: flex;
+  align-items: center;
+}
+.second-div-box img {
+  max-width: 500px;
+  width: 100%;
 }
 .fa-user {
   font-size: 30px;
@@ -242,26 +246,26 @@
   font-family: "Roboto";
   margin-top: 30px;
 }
-.second-div h6{
+.second-div h6 {
   margin-top: 25px;
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
   color: white;
 }
-.fourth-section{
-background-color: var(--background-color);
-padding: 30px;
+.fourth-section {
+  background-color: var(--background-color);
+  padding: 30px;
 }
 
 /* fourth section */
-.second-div-box img{
-  width: 600px;
+.second-div-box img {
+  width: 480px;
 }
-.two-div-boxes{
+.two-div-boxes {
   display: flex;
 }
-.first-div-box h2{
+.first-div-box h2 {
   color: #00b1f6;
   font-size: 100px;
   text-shadow: 3px 3px 10px royalblue;
@@ -270,7 +274,7 @@ padding: 30px;
   margin-top: 30px;
   text-align: right;
 }
-.first-div-box h3{
+.first-div-box h3 {
   font-size: 50px;
   color: white;
   font-family: "Roboto";
@@ -278,7 +282,7 @@ padding: 30px;
   margin-top: 30px;
   text-align: right;
 }
-.first-div-box h4{
+.first-div-box h4 {
   font-size: 20px;
   color: white;
   font-family: "Roboto";
@@ -286,7 +290,7 @@ padding: 30px;
   margin-top: 30px;
   text-align: right;
 }
-.first-div-box h5{
+.first-div-box h5 {
   font-size: 35px;
   color: white;
   font-family: "Roboto";
@@ -294,11 +298,142 @@ padding: 30px;
   margin-top: 30px;
   text-align: right;
 }
-.first-div-box h6{
+.first-div-box h6 {
   font-size: 20px;
   color: white;
   font-family: "Roboto";
   font-weight: bold;
   margin-top: 30px;
   text-align: right;
+}
+.fifth-section {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+
+.second-div2 h2 {
+  margin-top: 30px;
+  font-size: 100px;
+  color: green;
+  text-shadow: 3px 3px 10px greenyellow;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.two-divs {
+  display: flex;
+}
+.second-div2 h3 {
+  font-size: 55px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+}
+.second-div2 h4 {
+  font-size: 17px;
+  color: white;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.second-div2 h5 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 30px;
+}
+.second-div2 h6 {
+  margin-top: 25px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  color: white;
+}
+.div {
+  display: flex;
+  align-items: center;
+}
+
+/* ! */
+.seventh-section {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+
+.first-div-box2 h2 {
+  color: red;
+  font-size: 100px;
+  text-shadow: 3px 3px 10px rgb(236, 56, 6);
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box2 h3 {
+  font-size: 50px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box2 h4 {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box2 h5 {
+  font-size: 35px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+.first-div-box2 h6 {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.two-div-boxes2 {
+  display: flex;
+}
+.second-div-box2 img {
+  max-width: 500px;
+  width: 100%;
+}
+/* ! 8 */
+
+.eighth-section {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+.eighth-h2 {
+  width: 55%;
+}
+.eighth-h2 h2 {
+  font-size: 85px;
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.eighth-h2 h6 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.console {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 15px;
 }
