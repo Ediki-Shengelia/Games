@@ -15,6 +15,45 @@
     <link rel="icon" href="logo333.jpg" />
   </head>
   <body>
+    <!-- ? -->
+    <header class="header-bg">
+      <div class="navigation-bg">
+        <a class="GG">Games.com</a>
+        <div class="important" id="important">
+          <nav class="navigation">
+            <ul class="nav-ul">
+              <li><a href="#">About</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Free Events</a></li>
+            </ul>
+          </nav>
+
+          <div class="navigation-div">
+            <button class="users-button">
+              <i class="fa-solid fa-user"></i>
+              Log In
+            </button>
+
+            <button class="download-button">
+              <i class="fa-solid fa-arrow-down down"></i>
+              Download For PC
+            </button>
+          </div>
+        </div>
+        <!-- burger-bar -->
+        <div class="burger-bar">
+          <div class="burger" id="burger">
+            <div class="burger-top"></div>
+            <div class="burger-filling"></div>
+            <div class="burger-bottom"></div>
+          </div>
+        </div>
+        <!-- ;;; -->
+      </div>
+    </header>
+    <!-- ? -->
     <main class="main-bg">
       <section class="section-first">
         <div class="photo-bg">
@@ -92,16 +131,21 @@
             </div>
           </a>
 
-          <div class="first-box">
-            <i class="fa-solid fa-signal"></i>
-            <h5>know more and inform</h5>
-            <i class="fa-solid fa-arrow-down"></i>
-          </div>
-          <div class="first-box">
-            <i class="fa-solid fa-computer-mouse"></i>
-            <h5>Enhance Your exparinece on PC</h5>
-            <i class="fa-solid fa-arrow-down"></i>
-          </div>
+          <a href="#fifth-section">
+            <div class="first-box">
+              <i class="fa-solid fa-signal"></i>
+              <h5>know more and inform</h5>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </a>
+
+          <a href="#seventh-section">
+            <div class="first-box">
+              <i class="fa-solid fa-computer-mouse"></i>
+              <h5>Enhance Your exparinece on PC</h5>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -179,7 +223,7 @@
 
       <!-- fifth secotion -->
 
-      <section class="fifth-section">
+      <section class="fifth-section" id="fifth-section">
         <div class="space-around">
           <div class="user">
             <i class="fa-regular fa-user"></i>
@@ -213,7 +257,7 @@
 
       <!-- ! seventh-section -->
 
-      <section class="seventh-section">
+      <section class="seventh-section" id="seventh-section">
         <div class="space-around">
           <div class="user">
             <i class="fa-regular fa-user"></i>
@@ -261,6 +305,52 @@
           <img class="console" src="images/network/console.webp" alt="" />
         </div>
       </section>
+
+      <footer class="footer">
+        <div class="footer-box">
+          <div class="first-footer-box">
+            <h2 class="follow">FOllow US</h2>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="https://ge.linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="second-footer-box">
+            <select name="plan" id="plan" class="language-box">
+              <option value="none" selected disabled hidden>Language</option>
+              <option value="georgia">georgian</option>
+              <option value="italian">italian</option>
+              <option value="turkish">turkish</option>
+              <option value="usa">usa</option>
+              <option value="german">german</option>
+            </select>
+          </div>
+        </div>
+        <div class="another-div">
+          <a href="index.html">Games.com</a>
+          <a href="#">support</a>
+          <a href="#">Blog</a>
+          <a href="#">Forums</a>
+        </div>
+        <div class="second-another-div">
+          <h6>Terms Of Use</h6>
+          <h6>Legal Information</h6>
+          <h6>Privacy Policy</h6>
+          <h6>Set Cookies</h6>
+          <h6>Licenses</h6>
+          <h6>Do Not Sell My Personal Information</h6>
+        </div>
+      </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
