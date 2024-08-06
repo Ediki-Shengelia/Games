@@ -130,6 +130,12 @@
   .Assassin-h2 {
     font-size: 25px;
   }
+  .storyImg {
+    width: 360px;
+  }
+  .storyImg2 {
+    width: 360px;
+  }
 }
 @media (max-width: 768px) {
   .photo-bg {
@@ -300,7 +306,32 @@
   .Assassin-flex {
     margin-top: 40px;
   }
-  
+  .storyImg {
+    width: 100%;
+  }
+  .storyImg2 {
+    width: 100%;
+  }
+  .storyDiv {
+    width: 90%;
+  }
+  .storyBox h3 {
+    font-size: 35px;
+  }
+  .storyBox h4 {
+    font-size: 20px;
+  }
+
+  .storyDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .storyBox {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: fit-content;
+  }
 }
 @media (max-width: 480px) {
   .photo-bg {
@@ -396,14 +427,32 @@
     text-align: center;
     font-size: 25px;
   }
-  .Assassin-h2{
+  .Assassin-h2 {
     font-size: 20px;
-
   }
-  .Assassin-flex{
+  .Assassin-flex {
     text-align: center;
   }
-  .Assassin-h3{
+  .Assassin-h3 {
     font-size: 16px;
+  }
+  .first-store-section {
+    padding-top: 140px;
+  }
+  .storyDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .storyBox {
+    height: 350px;
+  }
+  .storyImg {
+    height: 150px;
+  }
+  .storyImg2 {
+    height: 150px;
+  }
+  .btnS {
+    width: 100%;
   }
 }

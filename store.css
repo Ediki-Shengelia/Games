@@ -174,3 +174,81 @@
   color: white;
   font-family: "Roboto";
 }
+/* ! */
+.fourth-store-section {
+  background-color: var(--background-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storyDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.storyImg {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(90deg, #00b0f677, #00b0f672 95%),
+    url(../images/store/plus/uplus.webp);
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+.storyBox div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.storyBox h3 {
+  font-size: 45px;
+  font-family: "Roboto";
+
+  text-align: left;
+}
+.storyBox h4 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.storyBox {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  padding-top: 40px;
+}
+.btnS {
+  background-color: white;
+  color: blue;
+  font-size: 25px;
+  border-radius: 25px;
+  width: 60%;
+  height: 50px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.btnS:hover {
+  background-color: blue;
+  color: white;
+}
+.storyImg2 {
+  background: linear-gradient(90deg, rgb(210, 75, 30, 0.2), #138f98 75%),
+    url(./images/store/plus/uplustwo.webp);
+  width: 400px;
+  height: 400px;
+  background-position: center;
+
+  background-size: contain;
+}
+.first-store-section {
+  padding-top: 70px;
+}
+.storyDiv:hover {
+  transform: translateY(-15px);
+}
+.storyDiv {
+  cursor: pointer;
+}

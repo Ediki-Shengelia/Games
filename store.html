@@ -6,10 +6,52 @@
     <title>store</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="store.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
+    <header class="header-bg">
+      <div class="navigation-bg">
+        <a href="index.html" class="GG">Games.com</a>
+        <div class="important" id="important">
+          <nav class="navigation">
+            <ul class="nav-ul">
+              <li><a href="index.html">About</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Free Events</a></li>
+            </ul>
+          </nav>
+
+          <div class="navigation-div">
+            <button class="users-button" id="login">
+              <i class="fa-solid fa-user"></i>
+              Log In
+            </button>
+
+            <button class="download-button">
+              <i class="fa-solid fa-arrow-down down"></i>
+              Download For PC
+            </button>
+          </div>
+        </div>
+        <!-- burger-bar -->
+        <div class="burger-bar">
+          <div class="burger" id="burger">
+            <div class="burger-top"></div>
+            <div class="burger-filling"></div>
+            <div class="burger-bottom"></div>
+          </div>
+        </div>
+        <!-- ;;; -->
+      </div>
+    </header>
     <main class="store-main">
       <section class="first-store-section">
         <div class="store-image-bg">
@@ -146,6 +188,36 @@
           </div>
         </div>
       </section>
+      <section class="fourth-store-section">
+        <div class="storyDiv">
+          <div class="storyImg"></div>
+
+          <div class="storyBox">
+            <div>
+              <h3>New Songs Coming to Rocksmith!</h3>
+              <h4>Learn Guitar With The New December Song Drop</h4>
+
+              <button class="btnS">See More</button>
+            </div>
+          </div>
+        </div>
+        <div class="storyDiv">
+          <div class="storyImg2"></div>
+
+          <div class="storyBox">
+            <div>
+              <h3>Play The Latest Ubisoft Releases</h3>
+              <h4>
+                Includes Over 100 Games, All Season Passes And A Selection Of
+                Indie Games
+              </h4>
+
+              <button class="btnS">See More</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
