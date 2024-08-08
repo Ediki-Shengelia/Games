@@ -136,6 +136,46 @@
   .storyImg2 {
     width: 360px;
   }
+  .product-video-container {
+    padding-top: 140px;
+  }
+}
+@media (max-width: 900px) {
+  .product-box2 div {
+    flex-direction: column;
+  }
+  .second-product-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-box {
+    text-align: center;
+  }
+  .product-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inproductBox {
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+  }
+  .incontainer div {
+    flex-direction: column;
+  }
+  .media {
+    width: 100%;
+  }
+  .game-container {
+    flex-direction: column;
+  }
+  .game-container div {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   .photo-bg {
@@ -454,5 +494,11 @@
   }
   .btnS {
     width: 100%;
+  }
+  .star {
+    font-size: 30px;
+  }
+  .names h5 {
+    font-size: 15px;
   }
 }

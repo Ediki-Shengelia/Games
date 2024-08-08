@@ -252,3 +252,30 @@
 .storyDiv {
   cursor: pointer;
 }
+/* ! */
+.div-margin {
+  width: 90%;
+  margin: 0 auto;
+}
+.div-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+}
+.names h5 {
+  font-size: 25px;
+  color: white;
+
+  margin-top: 20px;
+}
+.star {
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+}
+.star:hover {
+  transform: scale(1.3);
+}
