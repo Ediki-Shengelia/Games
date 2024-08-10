@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
@@ -30,7 +31,7 @@
           </nav>
 
           <div class="navigation-div">
-            <button class="users-button" id="login">
+            <button class="users-button" id="btnLogIn">
               <i class="fa-solid fa-user"></i>
               Log In
             </button>
@@ -277,6 +278,25 @@
         </div>
       </footer>
     </main>
+    <div class="overlay" id="overlayDivvv">
+      <div class="close" id="close">X</div>
+      <div class="height">
+        <form action="" class="form-el" id="loginn" method="get">
+          <div class="column">
+            <label for="emailField">Email</label>
+            <input type="email" name="email" id="emailField" />
+            <p class="error-text" id="error-email"></p>
+          </div>
+          <div class="column">
+            <label for="passwField">Password</label>
+            <input type="password" name="passw" id="passwField" />
+            <p class="error-text" id="error-passw"></p>
+          </div>
+          <button class="logIn" type="submit">Log In</button>
+        </form>
+      </div>
+    </div>
     <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
