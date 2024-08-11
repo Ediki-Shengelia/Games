@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="cookiesNotification.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link
       rel="stylesheet"
@@ -368,10 +369,21 @@
           <div class="column">
             <label for="passwField">Password</label>
             <input type="password" name="passw" id="passwField" />
-            <p class="error-text" id="error-passw"></p>
+            <i class="fa-regular fa-eye eye" id="eye"></i>
           </div>
+          <p class="error-text" id="error-passw"></p>
           <button class="logIn" type="submit">Log In</button>
         </form>
+      </div>
+    </div>
+    <!-- ! -->
+    <div class="cookie-notification" id="cookie-notification">
+      <div>
+        <p>
+          This website uses cookies to ensure you get the best experience on our
+          website.
+        </p>
+        <button id="accept-cookies">Accept</button>
       </div>
     </div>
     <script src="script.js"></script>

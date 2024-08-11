@@ -57,3 +57,11 @@
   color: black;
   font-weight: bold;
 }
+.column{
+  position: relative;
+}
+.eye{
+  position: absolute;
+  right: 15px;
+  bottom: 2px;
+}
