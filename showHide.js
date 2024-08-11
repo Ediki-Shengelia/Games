@@ -14,12 +14,15 @@ export function showHide() {
     }
   });
 
-  function visibility() {
+  function toggleVisibility() {
+    // Check if the password field is empty
     if (passwordfield.value.trim() === "") {
       ShowIcon.style.display = "none";
     } else {
       ShowIcon.style.display = "block";
     }
   }
-  passwordfield.addEventListener("input", visibility);
+
+  // Attach the function to the input event of the password field
+  passwordfield.addEventListener("input", toggleVisibility);
 }
